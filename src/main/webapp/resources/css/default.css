@@ -1,0 +1,113 @@
+/*
+ * JBoss, Home of Professional Open Source.
+ * Copyright 2011, Red Hat, Inc., and individual contributors
+ * as indicated by the @author tags. See the copyright.txt file in the
+ * distribution for a full listing of individual contributors.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+*/
+
+/* 
+ *   Document   : default
+ *   Created on : Oct 11, 2011, 2:57:16 PM
+ *   Author     : <a href="mailto:nbenothm@redhat.com">Nabil Benothman</a>
+ *   Description:
+ *       Purpose of the stylesheet follows.
+*/
+
+
+body {
+    background-color: #F2F2F2;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    color: #666666;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+tfoot {
+    background-color: #EEEEEE;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 2px;
+    border: thin solid #888888;
+
+    text-shadow: 0px 1px 0px #fff;
+    -moz-text-shadow: 0px 1px 0px #fff;
+    -webkit-text-shadow: 0px 1px 0px #fff;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+input:focus,textarea:focus {
+    border:1px solid #AAAAAA;
+    -webkit-box-shadow: 0px 0px 5px #007eff;
+    -moz-box-shadow: 0px 0px 5px #007eff;
+    box-shadow: 0px 0px 5px #007eff;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    background-color: #EEEEFF;
+}
+
+input[type=text],input[type=file], input[type=password],textarea {
+    width: 97%;
+}
+
+input.error, textarea.error {
+    border: thin solid red;
+}
+
+em {
+    color : red;
+    margin: 3px;
+    padding: 3px;
+}
+
+label {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 5px;
+    color: #999999;
+}
